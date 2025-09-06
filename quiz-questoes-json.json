@@ -1,0 +1,51 @@
+{
+  "titulo": "Quiz de Direito Tributário",
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "conceitual",
+      "pergunta": "Qual a diferença entre a imunidade tributária e a isenção?",
+      "opcoes": {
+        "A": "Imunidade é concedida por lei ordinária, enquanto isenção está na Constituição",
+        "B": "Imunidade é uma limitação constitucional ao poder de tributar; isenção é a dispensa legal do pagamento",
+        "C": "Imunidade se aplica a impostos, e isenção a taxas",
+        "D": "Não há diferença, os termos são sinônimos"
+      },
+      "correta": "B",
+      "explicacao": "A imunidade 'proíbe de criar', a isenção 'dispensa de pagar'. A Imunidade é uma regra constitucional que impede a própria competência tributária."
+    },
+    {
+      "id": 2,
+      "tipo": "conceitual",
+      "pergunta": "Qual classificação está associada ao princípio da capacidade contributiva?",
+      "opcoes": {
+        "A": "Tributos vinculados e não vinculados",
+        "B": "Tributos diretos e indiretos",
+        "C": "Tributos fiscais e extrafiscais",
+        "D": "Tributos reais e pessoais"
+      },
+      "correta": "D",
+      "explicacao": "A capacidade contributiva se manifesta nos tributos pessoais, que consideram características individuais de riqueza."
+    },
+    {
+      "id": 3,
+      "tipo": "pratico",
+      "pergunta": "O IPTU é um imposto de competência:",
+      "opcoes": {
+        "A": "Federal",
+        "B": "Estadual",
+        "C": "Municipal",
+        "D": "Distrital"
+      },
+      "correta": "C",
+      "explicacao": "O IPTU é de competência dos Municípios, conforme art. 156, I, da CF/1988."
+    }
+  ],
+  "configuracoes": {
+    "mostrarExplicacaoImediata": true,
+    "permitirNavegacao": true,
+    "mostrarProgresso": true,
+    "embaralharQuestoes": false,
+    "embaralharOpcoes": false
+  }
+}

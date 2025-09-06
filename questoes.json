@@ -3,42 +3,654 @@
   "questoes": [
     {
       "id": 1,
-      "tipo": "conceitual",
-      "pergunta": "Qual a diferença entre a imunidade tributária e a isenção?",
+      "tipo": "funcional-competencia",
+      "pergunta": "Como funciona a competência tributária cumulativa do Distrito Federal e da União nos Territórios Federais?",
       "opcoes": {
-        "A": "Imunidade é concedida por lei ordinária, enquanto isenção está na Constituição",
-        "B": "Imunidade é uma limitação constitucional ao poder de tributar; isenção é a dispensa legal do pagamento",
-        "C": "Imunidade se aplica a impostos, e isenção a taxas",
-        "D": "Não há diferença, os termos são sinônimos"
+        "A": "O DF pode criar apenas tributos municipais, e a União, apenas os federais.",
+        "B": "O DF acumula as competências para criar tributos estaduais e municipais; a União, nos Territórios, acumula as competências federal, estadual e, se não houver Municípios, também a municipal.",
+        "C": "A competência cumulativa significa que tanto o DF quanto a União podem criar os mesmos tributos simultaneamente.",
+        "D": "A União delega sua competência cumulativa para os Territórios, que ganham autonomia tributária."
       },
       "correta": "B",
-      "explicacao": "A imunidade 'proíbe de criar', a isenção 'dispensa de pagar'. A Imunidade é uma regra constitucional que impede a própria competência tributária."
+      "explicacao": "A competência cumulativa significa \"acumular funções\". Traduzindo: o Distrito Federal é uma entidade híbrida, não é nem Estado nem Município, então a Constituição deu a ele o poder de cobrar tanto os tributos estaduais (ICMS, IPVA) quanto os municipais (IPTU, ISS). Para os Territórios, a União age como um \"super-ente\": ela cobra seus próprios tributos federais (IR), os tributos estaduais (pois não há Estado ali) e, se o Território não for dividido em Municípios, ela também cobra os tributos municipais. Fundamento: Art. 147 da CF/1988."
     },
     {
       "id": 2,
-      "tipo": "conceitual",
-      "pergunta": "Qual classificação está associada ao princípio da capacidade contributiva?",
+      "tipo": "conceitual-definicao",
+      "pergunta": "Em palavras simples, o que são tributos privativos?",
       "opcoes": {
-        "A": "Tributos vinculados e não vinculados",
-        "B": "Tributos diretos e indiretos",
-        "C": "Tributos fiscais e extrafiscais",
-        "D": "Tributos reais e pessoais"
+        "A": "Tributos que só podem ser pagos por empresas privadas.",
+        "B": "Tributos cuja competência para instituição é deferida pela Constituição a um determinado ente político com exclusividade.",
+        "C": "Tributos que incidem sobre a propriedade privada.",
+        "D": "Tributos cuja arrecadação é destinada a fundos privados."
       },
-      "correta": "D",
-      "explicacao": "A capacidade contributiva se manifesta nos tributos pessoais, que consideram características individuais de riqueza."
+      "correta": "B",
+      "explicacao": "Tributos privativos são aqueles com \"dono exclusivo\". Traduzindo: a Constituição Federal funcionou como um testamento, deixando heranças específicas para cada ente. Ela disse: \"O Imposto de Renda (IR) é uma herança privativa da União, só ela pode criá-lo. O ICMS é privativo dos Estados, só eles podem. O IPTU é privativo dos Municípios, só eles podem\". Nenhum ente pode invadir a competência privativa do outro. Fundamento: Doutrina sobre competência tributária (ex: arts. 153, 155 e 156 da CF/88)."
     },
     {
       "id": 3,
-      "tipo": "pratico",
-      "pergunta": "O IPTU é um imposto de competência:",
+      "tipo": "conceitual-definicao",
+      "pergunta": "O que caracteriza um tributo como comum, no que diz respeito ao exercício da competência?",
       "opcoes": {
-        "A": "Federal",
-        "B": "Estadual",
-        "C": "Municipal",
-        "D": "Distrital"
+        "A": "É um tributo que incide sobre bens de uso comum do povo.",
+        "B": "É um tributo cuja instituição é deferida pela Constituição indiscriminadamente a todos os entes políticos (União, Estados, DF e Municípios).",
+        "C": "É um tributo que possui uma alíquota comum em todo o território nacional.",
+        "D": "É um tributo pago por todas as pessoas, físicas e jurídicas, sem exceção."
+      },
+      "correta": "B",
+      "explicacao": "Tributos comuns são aqueles do tipo \"quem fizer, cobra\". Traduzindo: a Constituição não deu um dono exclusivo para as taxas e contribuições de melhoria. A regra é: o ente que prestar o serviço (no caso da taxa) ou realizar a obra (na contribuição de melhoria) ganha o direito de cobrar o tributo correspondente. É como um serviço de entrega: se a União entrega seu passaporte, ela cobra a taxa. Se o município coleta seu lixo, ele cobra a taxa. Se o estado faz uma vistoria no seu carro, ele cobra a taxa. Fundamento: Doutrina sobre competência tributária (ex: arts. 145, I e II, da CF/88)."
+    },
+    {
+      "id": 4,
+      "tipo": "conceitual-definicao",
+      "pergunta": "O que são tributos residuais?",
+      "opcoes": {
+        "A": "São os tributos que incidem sobre resíduos sólidos ou poluição.",
+        "B": "São os tributos que sobraram da legislação anterior à Constituição de 1988.",
+        "C": "São novos impostos e novas contribuições para a seguridade social, não previstos originalmente na Constituição, que a União pode criar.",
+        "D": "São os valores residuais de tributos pagos a maior e que devem ser restituídos ao contribuinte."
       },
       "correta": "C",
-      "explicacao": "O IPTU é de competência dos Municípios, conforme art. 156, I, da CF/1988."
+      "explicacao": "Tributos residuais são a \"competência para criar o que não existe\". Traduzindo: a Constituição deu à União uma \"carta na manga\". Além dos impostos já listados, a União tem o poder residual (o que sobrou) de criar novos impostos (desde que não se pareçam com os já existentes) e novas contribuições para a seguridade. É uma competência para inovar, mas com regras rígidas (exige lei complementar). Fundamento: Art. 154, I, e art. 195, § 4º, da CF/88."
+    },
+    {
+      "id": 5,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Quanto ao exercício da competência, como são classificadas as taxas e as contribuições de melhoria?",
+      "opcoes": {
+        "A": "Tributos privativos da União.",
+        "B": "Tributos residuais.",
+        "C": "Tributos comuns.",
+        "D": "Tributos compartilhados entre Estados e Municípios."
+      },
+      "correta": "C",
+      "explicacao": "Taxas e contribuições de melhoria são tributos de competência comum. Traduzindo: a \"receita do bolo\" para cobrar esses tributos está disponível para todos os \"cozinheiros\" da federação (União, Estados, DF e Municípios). Aquele que efetivamente preparar o prato (ou seja, prestar o serviço público específico e divisível, ou realizar a obra que gera valorização) é quem ganha o direito de \"cobrar pela refeição\". Fundamento: Art. 145, I e II, e art. 81 do CTN."
+    },
+    {
+      "id": 6,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual a diferença fundamental entre um tributo com finalidade fiscal e um com finalidade extrafiscal?",
+      "opcoes": {
+        "A": "O fiscal é pago por pessoa física, e o extrafiscal, por pessoa jurídica.",
+        "B": "O fiscal tem como objetivo principal arrecadar dinheiro, enquanto o extrafiscal visa intervir na economia ou em um comportamento social.",
+        "C": "O fiscal é criado por lei ordinária, e o extrafiscal, por lei complementar.",
+        "D": "O fiscal é permanente, e o extrafiscal é sempre temporário."
+      },
+      "correta": "B",
+      "explicacao": "A diferença está na intenção. Traduzindo: Finalidade Fiscal: o governo quer dinheiro. É o objetivo da maioria dos tributos, como o Imposto de Renda. Finalidade Extrafiscal: o governo quer mudar um comportamento, e o dinheiro é consequência. É como o Imposto de Importação: se o governo quer proteger a indústria nacional, ele sobe o imposto para desestimular a compra de produtos estrangeiros. Se ele quer facilitar a entrada de tecnologia, ele baixa o imposto. O foco não é arrecadar, é regular o mercado. Fundamento: Doutrina de classificação dos tributos quanto à finalidade."
+    },
+    {
+      "id": 7,
+      "tipo": "conceitual-definicao",
+      "pergunta": "O que caracteriza um tributo com finalidade parafiscal?",
+      "opcoes": {
+        "A": "Quando a lei tributária nomeia um sujeito ativo diferente da pessoa política que a expediu, atribuindo-lhe a arrecadação e os recursos.",
+        "B": "Quando o tributo é cobrado para financiar atividades paranormais ou esotéricas.",
+        "C": "Quando o tributo tem uma finalidade que é parte fiscal e parte extrafiscal.",
+        "D": "Quando o tributo é cobrado por uma entidade fiscalizadora de outro país."
+      },
+      "correta": "A",
+      "explicacao": "Parafiscalidade é a \"arrecadação terceirizada\" por uma entidade pública. Traduzindo: \"para\" significa \"ao lado de\". É quando a União (ente político) cria um tributo, mas, em vez de ela mesma cobrar e administrar, ela delega essa tarefa para uma outra entidade pública (uma autarquia, por exemplo), que fica com o dinheiro para cumprir suas próprias finalidades. Exemplo clássico: as contribuições cobradas pelo INSS (uma autarquia federal) para custear a previdência. A União criou, mas quem arrecadava e usava era o INSS. Fundamento: Doutrina sobre parafiscalidade."
+    },
+    {
+      "id": 8,
+      "tipo": "jurisprudencial-entendimento",
+      "pergunta": "No caso da redução do imposto de importação sobre brinquedos em 1994, que gerou prejuízos à indústria nacional (ex: Estrela), o STF entendeu que cabia indenização do Estado?",
+      "opcoes": {
+        "A": "Sim, pois a mudança quebrou a confiança e a boa-fé da indústria.",
+        "B": "Não, pois não há garantia de manutenção da política econômica por determinado tempo, e o Estado agiu de forma impessoal.",
+        "C": "Sim, mas apenas para as empresas que provaram ter tido prejuízo superior a 50% do faturamento.",
+        "D": "O STF não julgou o mérito, determinando que a indústria buscasse um acordo com o governo."
+      },
+      "correta": "B",
+      "explicacao": "O STF decidiu que \"mudança nas regras do jogo econômico não gera indenização\". Traduzindo: o governo tem a liberdade de alterar sua política econômica (e as alíquotas de impostos extrafiscais) para atingir seus objetivos. Nenhuma empresa tem o \"direito adquirido\" de que a alíquota de um imposto permanecerá a mesma para sempre. Desde que o governo mude a regra para todos (de forma impessoal) e dentro da lei, eventuais prejuízos decorrentes dessa mudança não são indenizáveis. Fundamento: STF, ARE 759.755-AgR/SP."
+    },
+    {
+      "id": 9,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual a diferença entre tributos vinculados e não vinculados quanto à hipótese de incidência (fato gerador)?",
+      "opcoes": {
+        "A": "Vinculados são pagos por pessoa física vinculada ao governo; não vinculados são pagos por todos.",
+        "B": "Vinculados têm sua receita vinculada a uma despesa; não vinculados têm receita livre.",
+        "C": "O fato gerador dos vinculados é uma atividade do Estado relativa ao contribuinte; o dos não vinculados é uma atividade do próprio contribuinte.",
+        "D": "Vinculados são criados pela União; não vinculados, pelos Estados e Municípios."
+      },
+      "correta": "C",
+      "explicacao": "A diferença é \"quem age\" para o tributo nascer. Traduzindo: Tributo Vinculado: o Estado precisa fazer algo PARA você. Ele te presta um serviço (taxa de coleta de lixo) ou faz uma obra que valoriza seu imóvel (contribuição de melhoria). A ação é do Estado. Tributo Não Vinculado: VOCÊ precisa fazer algo. Você tem um carro (IPVA), ganha dinheiro (IR), vende uma mercadoria (ICMS). A ação é sua, é um \"fato do contribuinte\". O Estado não faz nada específico para você em troca. Fundamento: Doutrina de classificação dos tributos quanto ao fato gerador."
+    },
+    {
+      "id": 10,
+      "tipo": "conceitual-definicao",
+      "pergunta": "O que alguns autores querem dizer ao classificar os tributos vinculados como \"retributivos\" e os não vinculados como \"contributivos\"?",
+      "opcoes": {
+        "A": "Retributivos são pagos como punição; contributivos são pagos voluntariamente.",
+        "B": "Retributivos seriam uma contraprestação a uma atividade estatal (retribuição); contributivos seriam uma colaboração forçada com os fins do Estado (contribuição).",
+        "C": "Retributivos são devolvidos ao contribuinte no final do ano; contributivos não são.",
+        "D": "Retributivos incidem sobre o trabalho; contributivos incidem sobre o capital."
+      },
+      "correta": "B",
+      "explicacao": "É uma classificação pelo \"porquê\" do pagamento. Traduzindo: Retributivos (Vinculados): você paga para \"retribuir\" algo que o Estado fez especificamente para você. É uma troca, uma contraprestação. Ex: taxa. Contributivos (Não Vinculados): você não recebe nada específico em troca. Você paga simplesmente para \"contribuir\" com o financiamento geral do Estado, de forma solidária, para que ele possa prover os serviços para toda a sociedade. Ex: impostos. Fundamento: Doutrina de classificação dos tributos (nomenclatura alternativa)."
+    },
+    {
+      "id": 11,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual a diferença crucial entre a classificação quanto ao fato gerador (vinculado/não vinculado) e a classificação quanto ao destino da arrecadação (vinculada/não vinculada)?",
+      "opcoes": {
+        "A": "Não há diferença, são dois nomes para a mesma classificação.",
+        "B": "A primeira olha para o \"nascimento\" da obrigação de pagar (o que a causou), enquanto a segunda olha para o \"futuro\" do dinheiro (onde ele pode ser gasto).",
+        "C": "A primeira se aplica a impostos, e a segunda, a taxas.",
+        "D": "A primeira é definida por lei, e a segunda, por decreto do Executivo."
+      },
+      "correta": "B",
+      "explicacao": "A diferença é olhar para o \"antes\" vs. o \"depois\". Traduzindo: Fato Gerador (o \"antes\"): olhamos para a situação que faz a dívida nascer. Foi um ato do Estado ou um ato seu? Isso define se o tributo é vinculado ou não vinculado. Destino da Arrecadação (o \"depois\"): olhamos para o dinheiro já no cofre do governo. Ele tem um destino \"carimbado\" ou pode ser usado para qualquer coisa? Isso define se a arrecadação é vinculada ou não vinculada. São duas análises completamente diferentes. Fundamento: Doutrina tributária."
+    },
+    {
+      "id": 12,
+      "tipo": "normativa-excecao",
+      "pergunta": "A receita arrecadada com taxas é obrigatoriamente vinculada à atividade estatal que justifica sua cobrança?",
+      "opcoes": {
+        "A": "Sim, toda receita de taxa deve ser usada exclusivamente para custear o serviço que a gerou.",
+        "B": "Não, a vinculação é uma opção do legislador, salvo no caso de custas e emolumentos (taxas judiciais e extrajudiciais).",
+        "C": "Sim, mas apenas para as taxas cobradas pela União.",
+        "D": "Não, a receita de taxas nunca pode ser vinculada, devendo ir para o caixa geral do ente."
+      },
+      "correta": "B",
+      "explicacao": "A vinculação da receita da taxa é, em regra, opcional. Traduzindo: um município pode cobrar uma taxa de coleta de lixo e usar esse dinheiro para pagar a empresa de limpeza (vinculando a receita). Ou ele pode pagar a empresa com dinheiro do orçamento geral e colocar o dinheiro da taxa no \"caixão\" para outras despesas. A escolha é do legislador. A grande exceção: para custas e emolumentos (taxas do Judiciário e de cartórios), a Constituição exige que a receita seja destinada exclusivamente ao custeio dos serviços da Justiça. Fundamento: Art. 98, § 2º, da CF/88 (exceção) e doutrina (regra geral)."
+    },
+    {
+      "id": 13,
+      "tipo": "jurisprudencial-entendimento",
+      "pergunta": "O STF tem uma interpretação elástica sobre o que seriam \"serviços afetos às atividades específicas da Justiça\" para fins de destinação da arrecadação de custas e emolumentos. Qual exemplo é dado no texto?",
+      "opcoes": {
+        "A": "O custeio de campanhas de reeleição de juízes.",
+        "B": "A vinculação de parcela dos emolumentos a um Fundo Especial da Procuradoria-Geral do Estado.",
+        "C": "O pagamento de bônus para servidores administrativos do Judiciário.",
+        "D": "A construção de estádios de futebol para os tribunais de justiça."
+      },
+      "correta": "B",
+      "explicacao": "O STF ampliou o conceito de \"serviços da Justiça\". Traduzindo: a Constituição diz que o dinheiro das taxas de cartório deve ir para a Justiça. Em uma decisão, o STF entendeu que a Advocacia Pública (Procuradoria do Estado) é uma \"função essencial à Justiça\", conforme a própria Constituição. Portanto, seria válido destinar uma parte do dinheiro arrecadado pelos cartórios para um fundo que financia a Procuradoria. É uma interpretação que expande o destino da verba para além do Poder Judiciário em si. Fundamento: STF, ADI 3.704/RJ."
+    },
+    {
+      "id": 14,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Por que a receita da contribuição de melhoria não pode ser considerada vinculada à realização da obra?",
+      "opcoes": {
+        "A": "Porque a obra é realizada por empresas privadas, e não pelo Estado.",
+        "B": "Porque o tributo só pode ser cobrado após a conclusão da obra e a verificação da valorização imobiliária.",
+        "C": "Porque a receita é, por lei, destinada ao Fundo de Participação dos Municípios.",
+        "D": "Porque a contribuição de melhoria não é um tributo de arrecadação vinculada."
+      },
+      "correta": "B",
+      "explicacao": "A cobrança acontece depois da despesa. Traduzindo: não faz sentido \"vincular\" a arrecadação para pagar por algo que... já foi pago. A lógica da contribuição de melhoria é: 1º) o Estado faz a obra com recursos do orçamento; 2º) a obra termina e valoriza os imóveis; 3º) SÓ ENTÃO o Estado pode cobrar o tributo dos proprietários para ser ressarcido (total ou parcialmente) do gasto que já teve. O dinheiro arrecadado serve para repor o caixa, não para financiar a obra em si. Fundamento: Doutrina sobre o fato gerador da contribuição de melhoria."
+    },
+    {
+      "id": 15,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual é a diferença jurídica, e não meramente econômica, entre tributos diretos e indiretos?",
+      "opcoes": {
+        "A": "Diretos são pagos em dinheiro; indiretos são pagos com bens ou serviços.",
+        "B": "Diretos são os impostos; indiretos são as taxas e contribuições.",
+        "C": "Indiretos são aqueles cuja configuração jurídica permite a translação do encargo para outra pessoa (contribuinte de fato); diretos não permitem essa translação jurídica.",
+        "D": "Diretos incidem sobre a renda; indiretos incidem sobre o consumo."
+      },
+      "correta": "C",
+      "explicacao": "A diferença está na \"previsão legal do repasse\". Traduzindo: em quase todo tributo o empresário \"repassa\" o custo no preço (repercussão econômica). Mas a distinção jurídica é outra: Tributo Indireto (ex: ICMS): a própria lei já prevê e estrutura o sistema para que o comerciante (contribuinte de direito) cobre o valor do imposto do consumidor final (contribuinte de fato) e apenas o recolha aos cofres públicos. Tributo Direto (ex: IR): a lei define que quem aufere a renda é quem deve pagar. Não há um mecanismo jurídico para repassar esse ônus. Fundamento: Doutrina sobre tributos diretos e indiretos."
+    },
+    {
+      "id": 16,
+      "tipo": "conceitual-distincao",
+      "pergunta": "O que distingue o contribuinte de direito do contribuinte de fato em um tributo indireto?",
+      "opcoes": {
+        "A": "O de direito é a pessoa física; o de fato é a pessoa jurídica.",
+        "B": "O de direito tem o dever legal de recolher o tributo; o de fato é quem efetivamente arca com o ônus econômico.",
+        "C": "O de direito pode pedir a restituição do tributo; o de fato não pode.",
+        "D": "Não há distinção, são a mesma pessoa."
+      },
+      "correta": "B",
+      "explicacao": "A diferença é \"quem paga a conta\" versus \"quem leva o dinheiro ao banco\". Traduzindo: no ICMS da sua compra no supermercado: Você é o contribuinte DE FATO: o dinheiro do imposto saiu do seu bolso, você sentiu o peso econômico. O supermercado é o contribuinte DE DIREITO: ele tem a obrigação legal, perante o Fisco, de pegar o dinheiro que você pagou e repassá-lo ao Estado. Fundamento: Doutrina sobre sujeição passiva em tributos indiretos."
+    },
+    {
+      "id": 17,
+      "tipo": "jurisprudencial-entendimento",
+      "pergunta": "Segundo o texto, qual é o posicionamento do Superior Tribunal de Justiça (STJ) sobre o uso de critérios puramente econômicos para classificar um tributo como direto ou indireto?",
+      "opcoes": {
+        "A": "O STJ determina que a classificação deve seguir exclusivamente critérios econômicos.",
+        "B": "O STJ entende que a classificação é irrelevante e não deve ser utilizada.",
+        "C": "O STJ tem jurisprudência pacífica de que critérios econômicos são inaplicáveis, devendo-se usar a qualificação jurídica.",
+        "D": "O STJ delega a cada juiz a liberdade de escolher entre o critério econômico ou jurídico."
+      },
+      "correta": "C",
+      "explicacao": "Para o STJ, o que vale é a lei, não a economia. Traduzindo: embora os economistas digam que quase todo tributo é repassado no preço, o STJ afirma que, para o Direito, o que importa é a estrutura jurídica. O Imposto de Renda, por exemplo, é juridicamente direto, mesmo que economicamente a empresa o embuta em seus preços. Essa distinção é crucial, por exemplo, para definir quem tem direito de pedir a restituição de um tributo pago indevidamente. Fundamento: STJ, REsp 118.488/RS."
+    },
+    {
+      "id": 18,
+      "tipo": "integradora-finalidade",
+      "pergunta": "Qual é a principal relevância jurídica da classificação dos tributos em diretos e indiretos?",
+      "opcoes": {
+        "A": "A definição da competência para a criação do tributo.",
+        "B": "As regras relativas à restituição do indébito tributário (quem pode pedir o dinheiro de volta).",
+        "C": "O prazo de prescrição para a cobrança do crédito tributário.",
+        "D": "A necessidade de lei complementar para sua instituição."
+      },
+      "correta": "B",
+      "explicacao": "A classificação define \"quem pode ir ao guichê pedir o reembolso\". Traduzindo: a principal consequência prática dessa distinção está nas regras para pedir a devolução de um tributo pago a mais ou indevidamente. Em tributos indiretos, as regras são muito mais complexas, pois é preciso provar quem de fato arcou com o prejuízo (geralmente o consumidor final, o contribuinte de fato), conforme o art. 166 do CTN. Fundamento: Art. 166 do Código Tributário Nacional (CTN)."
+    },
+    {
+      "id": 19,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual a diferença entre tributos reais e pessoais?",
+      "opcoes": {
+        "A": "Reais são pagos por reis e nobres; pessoais são pagos por plebeus.",
+        "B": "Reais incidem sobre coisas (objetivamente), sem levar em conta as características do contribuinte; pessoais consideram aspectos subjetivos do contribuinte.",
+        "C": "Reais são pagos em moeda corrente (Real); pessoais podem ser pagos com serviços.",
+        "D": "Reais são os tributos federais; pessoais são os estaduais e municipais."
+      },
+      "correta": "B",
+      "explicacao": "A diferença é se o tributo \"olha para a coisa\" ou \"olha para a pessoa\". Traduzindo: Tributo Real (ex: IPVA): o Fisco só quer saber as características do carro (ano, modelo). Não importa se o dono é rico, pobre, casado ou tem 10 filhos. Dois carros iguais pagam o mesmo imposto. Tributo Pessoal (ex: Imposto de Renda): o Fisco quer saber tudo sobre você. Ele leva em conta seus gastos com saúde, educação, quantos dependentes você tem etc., para calcular o imposto a pagar. Fundamento: Doutrina de classificação dos tributos quanto aos aspectos da hipótese de incidência."
+    },
+    {
+      "id": 20,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "De acordo com a classificação do Código Tributário Nacional (CTN) adaptada, quais são os impostos sobre o comércio exterior?",
+      "opcoes": {
+        "A": "IPI e ICMS.",
+        "B": "Imposto de Importação (II) e Imposto de Exportação (I",
+        "E": ".",
+        "C": "IOF e ITR.",
+        "D": "Imposto de Renda (IR) e Imposto sobre Grandes Fortunas (IGF)."
+      },
+      "correta": "B",
+      "explicacao": "Essa classificação é focada na origem da transação. Os impostos sobre o comércio exterior são aqueles que incidem sobre a entrada (Importação - II) e a saída (Exportação - IE) de mercadorias do território nacional. Eles são os principais instrumentos de regulação do comércio internacional do país. Fundamento: Classificação do CTN (arts. 19 a 28)."
+    },
+    {
+      "id": 21,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Conforme a tradicional base econômica de incidência do CTN, o IPI (Imposto sobre Produtos Industrializados) e o ICMS (Imposto sobre Circulação de Mercadorias e Serviços) são classificados como impostos sobre:",
+      "opcoes": {
+        "A": "O patrimônio ou a renda.",
+        "B": "O comércio exterior.",
+        "C": "A produção ou circulação.",
+        "D": "Serviços de qualquer natureza."
+      },
+      "correta": "C",
+      "explicacao": "A classificação agrupa os impostos que incidem sobre as etapas da vida econômica de um produto. O IPI incide quando um produto é fabricado (produção). O ICMS incide quando esse produto é vendido e muda de mãos (circulação). Ambos estão ligados ao dinamismo da economia, à movimentação de bens e serviços. Fundamento: Classificação do CTN."
+    },
+    {
+      "id": 22,
+      "tipo": "integradora-principio",
+      "pergunta": "O que a Constituição estabelece sobre as imunidades de \"patrimônio, renda e serviços\" para certas entidades, como templos, partidos políticos e instituições de educação sem fins lucrativos?",
+      "opcoes": {
+        "A": "Que essas entidades são isentas de todos os tributos existentes.",
+        "B": "Que a União não pode instituir impostos sobre o patrimônio, a renda ou os serviços dessas entidades.",
+        "C": "Que a imunidade se aplica apenas ao Imposto de Renda.",
+        "D": "Que a imunidade só vale se a entidade prestar um serviço público."
+      },
+      "correta": "B",
+      "explicacao": "A imunidade é uma limitação constitucional ao poder de tributar. A Constituição, no art. 150, VI, proíbe que os entes políticos (União, Estados, DF e Municípios) cobrem impostos sobre o patrimônio (prédios, veículos), a renda (aluguéis, doações) e os serviços que estão ligados às finalidades essenciais dessas entidades protegidas. É uma forma de fomentar atividades consideradas importantes para a sociedade. Fundamento: Art. 150, VI, da CF/1988."
+    },
+    {
+      "id": 23,
+      "tipo": "jurisprudencial-entendimento",
+      "pergunta": "Qual é a posição do STF sobre a utilização cega da classificação de impostos do CTN para restringir o alcance das imunidades constitucionais?",
+      "opcoes": {
+        "A": "O STF entende que a classificação do CTN deve ser seguida rigorosamente, pois é uma lei complementar.",
+        "B": "O STF entende que não se pode usar classificações infraconstitucionais (como a do CTN) para limitar a plena aplicabilidade e o alcance de uma imunidade prevista na Constituição.",
+        "C": "O STF decidiu que a classificação do CTN só pode ser afastada com autorização do Congresso Nacional.",
+        "D": "O STF é omisso sobre o tema, cabendo à doutrina definir os limites."
+      },
+      "correta": "B",
+      "explicacao": "O STF entende que a Constituição está acima do CTN. Traduzindo: a imunidade prevista na Constituição é uma regra \"mãe\", muito ampla e poderosa. A classificação do CTN (lei \"filha\") não pode ser usada como uma desculpa para diminuir ou esvaziar a proteção que a Constituição quis dar. O STF olha para a realidade econômica do imposto, e não apenas para o \"rótulo\" que o CTN deu a ele. Fundamento: STF, RE 203.755/ES."
+    },
+    {
+      "id": 24,
+      "tipo": "aplicativa-caso",
+      "pergunta": "Como o STF aplica seu entendimento sobre a amplitude das imunidades no caso da importação de um bem por uma entidade imune (ex: uma universidade filantrópica)?",
+      "opcoes": {
+        "A": "A imunidade só se aplica ao Imposto de Importação (II), pois os outros (IPI, ICMS) são sobre a circulação, e não sobre o patrimônio.",
+        "B": "A imunidade não se aplica a nenhum imposto na importação, pois a operação é de comércio exterior.",
+        "C": "O STF entende que, como o bem importado se integrará ao patrimônio da entidade, a imunidade sobre o \"patrimônio\" também impede a incidência de impostos como o IPI-Importação e o ICMS-Importação.",
+        "D": "A universidade deve pagar todos os impostos e depois pedir a restituição."
+      },
+      "correta": "C",
+      "explicacao": "O STF tem uma visão finalista da imunidade. Traduzindo: o raciocínio da Corte é: \"Para que serve a imunidade sobre o patrimônio? Para facilitar que a entidade tenha os bens necessários para cumprir sua missão\". A incidência de IPI e ICMS na importação de um equipamento para um hospital filantrópico, por exemplo, encareceria esse bem, dificultando sua aquisição e frustrando o objetivo da imunidade. Portanto, o STF estende a proteção para barrar também esses impostos, pois eles, na prática, oneram o patrimônio da entidade. Fundamento: STF, RE 203.755/ES e jurisprudência consolidada."
+    },
+    {
+      "id": 25,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "A competência para instituir o Imposto sobre Grandes Fortunas (IGF) e o Imposto de Renda (IR) é classificada como:",
+      "opcoes": {
+        "A": "Comum a todos os entes.",
+        "B": "Privativa da União.",
+        "C": "Privativa dos Estados.",
+        "D": "Residual da União."
+      },
+      "correta": "B",
+      "explicacao": "Esses são impostos de competência privativa da União. Traduzindo: a Constituição determinou que apenas o governo federal tem o poder de criar e cobrar o Imposto de Renda e o eventual Imposto sobre Grandes Fortunas. Nenhum estado ou município pode legislar sobre esses tributos. Fundamento: Art. 153, III e VII, da CF/88."
+    },
+    {
+      "id": 26,
+      "tipo": "integradora-finalidade",
+      "pergunta": "Qual é a principal utilidade prática do estudo das diversas classificações doutrinárias dos tributos?",
+      "opcoes": {
+        "A": "Aumentar a complexidade do Direito Tributário.",
+        "B": "Ajudar a melhor entender o regime jurídico a que cada tributo está submetido, especialmente quando a própria lei usa uma classificação para definir o alcance de uma regra.",
+        "C": "Servir apenas para fins acadêmicos, sem aplicação na vida real.",
+        "D": "Facilitar a criação de novos tributos pelos entes federados."
+      },
+      "correta": "B",
+      "explicacao": "Classificar é organizar para entender. Traduzindo: as classificações funcionam como \"etiquetas\" que nos ajudam a entender as regras do jogo para cada tributo. Saber se um tributo é \"direto\" ou \"indireto\", por exemplo, nos diz quem pode pedir a restituição. Saber se é \"extrafiscal\" nos ajuda a entender por que suas alíquotas podem mudar a todo momento. As classificações são ferramentas para interpretar e aplicar corretamente o direito. Fundamento: Parágrafo introdutório do item 1.5 do texto."
+    },
+    {
+      "id": 27,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Com base na tabela de resumo, qual dos tributos abaixo é um exemplo de tributo com finalidade predominantemente extrafiscal?",
+      "opcoes": {
+        "A": "Imposto de Renda (IR).",
+        "B": "Imposto sobre Serviços (ISS).",
+        "C": "Imposto de Importação (II).",
+        "D": "Imposto Predial e Territorial Urbano (IPTU)."
+      },
+      "correta": "C",
+      "explicacao": "O Imposto de Importação (II) é o exemplo clássico de tributo extrafiscal. Sua principal função não é arrecadar dinheiro para o governo, mas sim regular o comércio exterior. Traduzindo: o governo aumenta ou diminui a alíquota do II para proteger a indústria nacional, incentivar a entrada de certos produtos ou responder a políticas comerciais de outros países. O objetivo é comportamental/econômico, não arrecadatório. Fundamento: Tabela de resumo e doutrina tributária."
+    },
+    {
+      "id": 28,
+      "tipo": "conceitual-distincao",
+      "pergunta": "De acordo com a tabela, qual é a principal característica que diferencia os tributos de arrecadação vinculada (como os empréstimos compulsórios) dos tributos de arrecadação não vinculada (como os impostos)?",
+      "opcoes": {
+        "A": "Os vinculados são sempre federais; os não vinculados podem ser estaduais ou municipais.",
+        "B": "Os vinculados têm suas receitas destinadas a atividades específicas; os não vinculados vão para o \"caixa geral\" do governo.",
+        "C": "Os vinculados são temporários; os não vinculados são permanentes.",
+        "D": "Os vinculados são pagos por empresas; os não vinculados, por pessoas físicas."
+      },
+      "correta": "B",
+      "explicacao": "A diferença está na liberdade de gastar o dinheiro. Traduzindo: quando o governo arrecada um imposto (não vinculado), o dinheiro entra num grande \"cofre\" e pode ser usado para pagar qualquer despesa (saúde, educação, segurança). Quando ele arrecada um empréstimo compulsório (vinculado), o dinheiro entra num \"cofrinho\" com um cadeado e uma etiqueta dizendo \"só pode ser usado para a despesa X que justificou a cobrança\". Fundamento: Tabela de resumo e doutrina tributária."
+    },
+    {
+      "id": 29,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Conforme a tabela, como se diferenciam os tributos reais dos tributos pessoais quanto à hipótese de incidência?",
+      "opcoes": {
+        "A": "Reais incidem sobre a realeza; pessoais incidem sobre o povo.",
+        "B": "Reais incidem objetivamente sobre coisas; pessoais consideram aspectos subjetivos da pessoa do contribuinte.",
+        "C": "Reais são pagos em uma única parcela; pessoais são pagos mensalmente.",
+        "D": "Reais são declarados pelo contribuinte; pessoais são lançados de ofício pelo Fisco."
+      },
+      "correta": "B",
+      "explicacao": "A distinção é entre o \"o quê\" e o \"quem\". Traduzindo: um tributo real (ex: IPTU, ITR) está focado no objeto: o valor do imposto depende das características do imóvel (tamanho, localização), não do seu dono. Já um tributo pessoal (ex: IR) está focado no sujeito: o valor do imposto depende das características da pessoa (quanto ganhou, quantos dependentes tem, despesas médicas, etc.). Fundamento: Tabela de resumo e doutrina tributária."
+    },
+    {
+      "id": 30,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Com base na tabela e na classificação do CTN, o IOF (Imposto sobre Operações Financeiras) é classificado como um imposto sobre:",
+      "opcoes": {
+        "A": "O patrimônio e a renda.",
+        "B": "O comércio exterior.",
+        "C": "A produção e a circulação.",
+        "D": "Heranças e doações."
+      },
+      "correta": "C",
+      "explicacao": "O IOF incide sobre a movimentação de valores. Ele é classificado como um imposto sobre a produção e a circulação porque tributa operações que representam o fluxo de riqueza na economia, como operações de crédito, câmbio, seguro e relativas a títulos ou valores mobiliários. É um tributo que incide sobre a \"circulação\" do dinheiro e do crédito. Fundamento: Tabela de resumo e classificação do CTN."
+    },
+    {
+      "id": 31,
+      "tipo": "conceitual-distincao",
+      "pergunta": "De acordo com a nota de rodapé na tabela, qual é a controvérsia doutrinária a respeito da finalidade do IPI?",
+      "opcoes": {
+        "A": "Alguns autores defendem que o IPI deveria ser um imposto estadual, e não federal.",
+        "B": "Alguns autores sustentam a preponderância da finalidade fiscal (arrecadar) sobre a extrafiscal (regular).",
+        "C": "Discute-se se o IPI deveria incidir também sobre serviços, e não apenas sobre produtos.",
+        "D": "A controvérsia é se o IPI pode ter alíquota zero ou negativa."
+      },
+      "correta": "B",
+      "explicacao": "A discussão é sobre a \"principal vocação\" do IPI. Traduzindo: embora o IPI seja frequentemente usado como um instrumento extrafiscal (ex: o governo reduz o IPI de carros para estimular a indústria), muitos autores argumentam que, no dia a dia, sua principal função e impacto é mesmo a de arrecadar dinheiro para os cofres da União, o que o caracterizaria como um tributo predominantemente fiscal. Fundamento: Nota de rodapé nº 1 da tabela de resumo."
+    },
+    {
+      "id": 32,
+      "tipo": "integradora-conexao",
+      "pergunta": "É possível que um tributo seja, ao mesmo tempo, não vinculado quanto ao fato gerador e de arrecadação vinculada quanto ao destino?",
+      "opcoes": {
+        "A": "Não, as classificações são mutuamente excludentes.",
+        "B": "Sim, e as contribuições sociais (COFINS, CSLL) são um exemplo perfeito disso.",
+        "C": "Sim, mas apenas os impostos podem ter essa característica.",
+        "D": "Não, pois se o fato gerador não é vinculado, a arrecadação também não pode ser."
+      },
+      "correta": "B",
+      "explicacao": "Sim, é uma combinação perfeitamente possível e comum. Traduzindo: vamos usar a COFINS como exemplo. Fato Gerador (Não Vinculado): o que faz nascer a obrigação de pagar? A empresa ter faturamento. Isso é um \"fato do contribuinte\", não uma ação do Estado para a empresa. Destino da Arrecadação (Vinculado): para onde vai o dinheiro arrecadado? Para um \"cofrinho\" específico chamado \"Seguridade Social\". Portanto, a COFINS é um tributo não vinculado (no fato gerador) com arrecadação vinculada (no destino). Fundamento: Doutrina tributária e exemplos de contribuições especiais."
+    },
+    {
+      "id": 33,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Segundo a Constituição, qual ente federativo tem competência para instituir empréstimos compulsórios?",
+      "opcoes": {
+        "A": "A União, os Estados e os Municípios, em caso de guerra.",
+        "B": "Apenas a União.",
+        "C": "Apenas os Estados e o Distrito Federal.",
+        "D": "Apenas os Municípios, para calamidades públicas."
+      },
+      "correta": "B",
+      "explicacao": "A competência para instituir empréstimos compulsórios é privativa da União. A Constituição, no artigo 148, deu essa ferramenta poderosa exclusivamente ao governo federal, e apenas em situações extraordinárias e graves, como guerra externa, calamidade pública ou investimento público de caráter urgente e relevante interesse nacional. Fundamento: Art. 148 da CF/1988."
+    },
+    {
+      "id": 34,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "De acordo com a tabela de resumo, o ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) é um imposto de competência:",
+      "opcoes": {
+        "A": "Federal.",
+        "B": "Municipal.",
+        "C": "Estadual.",
+        "D": "Comum."
+      },
+      "correta": "C",
+      "explicacao": "O ITCMD é um imposto de competência dos Estados e do Distrito Federal. Ele incide sobre a transmissão de bens ou direitos por herança (causa mortis) ou por doação. Cada estado tem sua própria legislação para definir as alíquotas e as regras de cobrança, respeitando os limites estabelecidos pela Constituição e por resolução do Senado Federal. Fundamento: Art. 155, I, da CF/1988 e Tabela de Resumo."
+    },
+    {
+      "id": 35,
+      "tipo": "conceitual-definicao",
+      "pergunta": "Os novos impostos e as novas contribuições sociais para a seguridade social, que a União pode criar por meio de lei complementar, são classificados quanto ao exercício da competência como:",
+      "opcoes": {
+        "A": "Privativos.",
+        "B": "Comuns.",
+        "C": "Residuais.",
+        "D": "Compartilhados."
+      },
+      "correta": "C",
+      "explicacao": "A competência para criar tributos que não estão expressamente previstos na Constituição é chamada de residual. A Constituição Federal outorgou essa competência residual apenas à União, tanto para a criação de novos impostos (art. 154, I) quanto para novas contribuições de seguridade social (art. 195, § 4º), exigindo, para ambos, o uso de lei complementar. Fundamento: Tabela de Resumo e arts. 154, I, e 195, § 4º da CF/88."
+    },
+    {
+      "id": 36,
+      "tipo": "aplicativa-caso",
+      "pergunta": "Se um Estado realiza uma obra de asfaltamento em uma rua, e essa obra gera uma valorização significativa nos imóveis daquela localidade, qual tributo o Estado pode instituir para ser ressarcido dos custos?",
+      "opcoes": {
+        "A": "Um aumento no IPTU para os moradores da rua.",
+        "B": "Uma taxa de asfaltamento.",
+        "C": "Uma contribuição de melhoria.",
+        "D": "Um imposto residual sobre valorização imobiliária."
+      },
+      "correta": "C",
+      "explicacao": "Este é o caso clássico de incidência da contribuição de melhoria. Trata-se de um tributo vinculado a uma atuação estatal (a obra pública) da qual decorre, para o contribuinte, um benefício específico (a valorização do seu imóvel). A competência para sua instituição é comum, ou seja, o ente que realiza a obra pode cobrar o tributo. Fundamento: Art. 145, III, da CF/88 e doutrina."
+    },
+    {
+      "id": 37,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "O Imposto sobre a Propriedade de Veículos Automotores (IPVA) e o Imposto Predial e Territorial Urbano (IPTU) são exemplos de tributos:",
+      "opcoes": {
+        "A": "Pessoais, pois variam conforme a renda do proprietário.",
+        "B": "De arrecadação vinculada à manutenção de vias públicas.",
+        "C": "Diretos e reais.",
+        "D": "Indiretos e extrafiscais."
+      },
+      "correta": "C",
+      "explicacao": "Tanto o IPVA quanto o IPTU são tributos diretos, pois o ônus econômico-financeiro recai sobre a pessoa definida em lei como sujeito passivo (o proprietário), sem previsão de repasse jurídico. Além disso, são reais, pois incidem sobre a coisa (o veículo ou o imóvel), levando em conta suas características objetivas, e não as condições pessoais de seu proprietário. Fundamento: Doutrina e Tabela de Resumo."
+    },
+    {
+      "id": 38,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual das alternativas apresenta uma correta distinção entre ICMS e ISS, com base na classificação dos tributos?",
+      "opcoes": {
+        "A": "O ICMS é estadual e indireto; o ISS é municipal e direto.",
+        "B": "O ICMS é sobre a produção; o ISS é sobre o patrimônio.",
+        "C": "O ICMS é estadual e incide sobre circulação de mercadorias e alguns serviços; o ISS é municipal e incide sobre a prestação de serviços (listados em lei complementar).",
+        "D": "O ICMS é fiscal; o ISS é extrafiscal."
+      },
+      "correta": "C",
+      "explicacao": "A distinção fundamental está na competência e no fato gerador. O ICMS é de competência dos Estados e do DF, e seu fato gerador principal é a circulação de mercadorias, embora também incida sobre serviços de transporte interestadual/intermunicipal e de comunicação. O ISS (ou ISSQN) é de competência dos Municípios e do DF, e seu fato gerador é a prestação de serviços constantes de uma lista anexa à Lei Complementar 116/2003. Fundamento: Arts. 155, II, e 156, III, da CF/88."
+    },
+    {
+      "id": 39,
+      "tipo": "integradora-conexao",
+      "pergunta": "Um tributo pode ser classificado como comum (quanto à competência), vinculado (quanto ao fato gerador) e, em regra, de arrecadação não vinculada (quanto ao destino). Qual espécie tributária se encaixa nessa tripla classificação?",
+      "opcoes": {
+        "A": "Impostos.",
+        "B": "Empréstimos compulsórios.",
+        "C": "Contribuições especiais.",
+        "D": "Taxas."
+      },
+      "correta": "D",
+      "explicacao": "A taxa é o único tributo que se encaixa perfeitamente nessa descrição. Vamos verificar: 1) É comum, pois todos os entes podem instituí-la. 2) É vinculada, pois seu fato gerador é uma atividade estatal (serviço público ou poder de polícia). 3) Sua arrecadação, em regra (com exceção das custas judiciais), pode não ser vinculada, sendo uma opção do legislador. Fundamento: Doutrina sobre a classificação das taxas."
+    },
+    {
+      "id": 40,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "De acordo com a tabela de resumo, o IEG (Imposto Extraordinário de Guerra) é classificado, quanto à base econômica, como um imposto:",
+      "opcoes": {
+        "A": "Sobre o patrimônio e a renda.",
+        "B": "Extraordinário.",
+        "C": "Sobre a produção e a circulação.",
+        "D": "Sobre o comércio exterior."
+      },
+      "correta": "B",
+      "explicacao": "O IEG pertence a uma categoria própria e excepcional. Ele não se enquadra nas bases econômicas tradicionais (patrimônio, renda, consumo) porque sua instituição não está ligada a um fato econômico ordinário, mas sim a uma situação de anormalidade extrema: a guerra externa ou sua iminência. Por isso, ele é classificado simplesmente como um imposto extraordinário. Fundamento: Art. 154, II, da CF/1988 e Tabela de Resumo."
+    },
+    {
+      "id": 41,
+      "tipo": "conceitual-definicao",
+      "pergunta": "De acordo com a doutrina, o que são tributos contraprestacionais?",
+      "opcoes": {
+        "A": "São os tributos pagos como condição para firmar um contrato com o poder público.",
+        "B": "É outro nome para os tributos vinculados (taxas e contribuições de melhoria), pois são vistos como uma contraprestação a uma atividade estatal.",
+        "C": "São os tributos que o contribuinte pode escolher não pagar se não concordar com a contraprestação do Estado.",
+        "D": "São os tributos cuja alíquota é definida em negociação direta entre o Fisco e o contribuinte."
+      },
+      "correta": "B",
+      "explicacao": "Contraprestacional significa que há uma \"troca\" ou \"retribuição\". Essa é uma nomenclatura alternativa para os tributos vinculados. A ideia é que o contribuinte paga a taxa como uma contraprestação pelo serviço que recebeu ou pelo exercício do poder de polícia que o fiscalizou. Da mesma forma, paga a contribuição de melhoria como uma contraprestação pela valorização que a obra pública trouxe ao seu imóvel. Fundamento: Doutrina tributária."
+    },
+    {
+      "id": 42,
+      "tipo": "normativa-literalidade",
+      "pergunta": "Por força do parágrafo único do art. 148 da CF/1988, como é classificado o empréstimo compulsório quanto ao destino de sua arrecadação?",
+      "opcoes": {
+        "A": "De arrecadação não vinculada.",
+        "B": "De arrecadação parcialmente vinculada.",
+        "C": "De arrecadação vinculada às despesas que autorizaram sua instituição.",
+        "D": "De arrecadação vinculada ao pagamento da dívida externa."
+      },
+      "correta": "C",
+      "explicacao": "O empréstimo compulsório possui uma vinculação de receita rígida e expressa. O parágrafo único do art. 148 da Constituição Federal é claro ao determinar que \"a aplicação dos recursos provenientes de empréstimo compulsório será vinculada à despesa que fundamentou sua instituição\". Ou seja, se foi criado para uma calamidade pública, o dinheiro só pode ser usado para enfrentar aquela calamidade. Fundamento: Art. 148, parágrafo único, da CF/1988."
+    },
+    {
+      "id": 43,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Qual dos tributos abaixo é um exemplo de tributo privativo dos municípios e do DF?",
+      "opcoes": {
+        "A": "IPVA.",
+        "B": "ICMS.",
+        "C": "ISS.",
+        "D": "ITR."
+      },
+      "correta": "C",
+      "explicacao": "O Imposto Sobre Serviços (ISS) é um dos principais tributos de competência privativa dos Municípios e do Distrito Federal. Ele incide sobre a prestação de uma vasta gama de serviços, conforme lista definida em lei complementar nacional. IPVA e ICMS são estaduais, e o ITR é federal. Fundamento: Art. 156, III, da CF/1988 e Tabela de Resumo."
+    },
+    {
+      "id": 44,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Embora tanto o ITBI quanto o ITCMD incidam sobre a transmissão de bens, qual é a principal diferença entre eles?",
+      "opcoes": {
+        "A": "O ITBI é estadual e o ITCMD é municipal.",
+        "B": "O ITBI incide sobre a transmissão onerosa (compra e venda) de imóveis \"inter vivos\"; o ITCMD incide sobre transmissões não onerosas (herança e doação).",
+        "C": "O ITBI incide sobre bens imóveis; o ITCMD, apenas sobre bens móveis.",
+        "D": "O ITBI tem alíquotas progressivas; o ITCMD tem alíquota fixa."
+      },
+      "correta": "B",
+      "explicacao": "A diferença está na natureza da transmissão. ITBI (Imposto de Transmissão de Bens Imóveis): é de competência municipal e incide quando há pagamento, como numa compra e venda de um imóvel. É uma transmissão \"inter vivos\" (entre pessoas vivas) e onerosa. ITCMD (Imposto de Transmissão Causa Mortis e Doação): é de competência estadual e incide quando não há pagamento, ou seja, em transmissões gratuitas, seja por herança (causa mortis) ou por doação (\"inter vivos\"). Fundamento: Arts. 156, II e 155, I da CF/1988."
+    },
+    {
+      "id": 45,
+      "tipo": "conceitual-classificacao",
+      "pergunta": "Qual das alternativas abaixo apresenta exemplos de impostos classificados como incidentes sobre o patrimônio ou a renda?",
+      "opcoes": {
+        "A": "II, IE e IPI.",
+        "B": "IR, ITR, IPVA e IPTU.",
+        "C": "ICMS, ISS e IOF.",
+        "D": "Taxas e Contribuições de Melhoria."
+      },
+      "correta": "B",
+      "explicacao": "Este grupo de impostos tributa a riqueza estática (patrimônio) ou a riqueza nova (renda). O IR incide sobre a renda e proventos. O ITR (imóvel rural), o IPVA (veículo) e o IPTU (imóvel urbano) incidem sobre a propriedade, que é uma manifestação de patrimônio. Fundamento: Classificação do CTN e Tabela de Resumo."
+    },
+    {
+      "id": 46,
+      "tipo": "normativa-excecao",
+      "pergunta": "A Constituição Federal veda a vinculação da receita de impostos a órgão, fundo ou despesa. Qual das opções abaixo é uma das exceções expressamente previstas nessa regra?",
+      "opcoes": {
+        "A": "A vinculação de 50% da arrecadação de IPVA aos Municípios.",
+        "B": "A vinculação da receita de todos os impostos federais para o pagamento da dívida pública.",
+        "C": "A vinculação da receita do imposto de renda para o custeio da saúde e educação.",
+        "D": "A vinculação de impostos para a prestação de garantias às operações de crédito por antecipação de receita (ARO)."
+      },
+      "correta": "D",
+      "explicacao": "A regra geral do art. 167, IV, da CF proíbe \"carimbar\" a receita de impostos. No entanto, o próprio inciso prevê exceções. Entre elas está a repartição do produto da arrecadação (como no caso do IPVA, que não é tecnicamente uma vinculação a despesa, mas uma repartição), a destinação de recursos para saúde, educação e administração tributária, e a prestação de garantias em operações de ARO. Fundamento: Art. 167, IV, da CF/1988."
+    },
+    {
+      "id": 47,
+      "tipo": "integradora-conexao",
+      "pergunta": "Qual é a relação entre a finalidade extrafiscal de um tributo e a mitigação do princípio da anterioridade?",
+      "opcoes": {
+        "A": "Tributos extrafiscais estão sempre isentos de respeitar a anterioridade.",
+        "B": "A Constituição permite que as alíquotas de alguns impostos com forte caráter extrafiscal (II, IE, IPI, IOF) sejam alteradas por ato do Poder Executivo com efeito imediato, para permitir uma rápida intervenção na economia.",
+        "C": "A finalidade extrafiscal exige que a anterioridade seja sempre de um ano (anual), e não de 90 dias (nonagesimal).",
+        "D": "Não há relação, todos os tributos devem respeitar a anterioridade da mesma forma."
+      },
+      "correta": "B",
+      "explicacao": "A urgência da economia flexibiliza a regra tributária. Traduzindo: o princípio da anterioridade existe para dar previsibilidade ao contribuinte. No entanto, para os impostos que funcionam como \"ferramentas de ajuste rápido\" da economia (II, IE, IPI, IOF), esperar o ano seguinte para uma mudança de alíquota seria ineficaz. Por isso, a Constituição excepciona esses impostos da anterioridade, permitindo que o Executivo altere suas alíquotas por decreto e com vigência imediata, para responder rapidamente a uma crise ou a uma oportunidade econômica. Fundamento: Art. 150, § 1º, da CF/1988."
+    },
+    {
+      "id": 48,
+      "tipo": "aplicativa-caso",
+      "pergunta": "Uma empresa industrial, contribuinte do IPI e do ICMS, vende seus produtos a um comerciante, que por sua vez os revende ao consumidor final. Nessa cadeia, quem são os contribuintes de direito e de fato do ICMS?",
+      "opcoes": {
+        "A": "A indústria é a contribuinte de direito, e o comerciante é o contribuinte de fato.",
+        "B": "A indústria e o comerciante são os contribuintes de direito em suas respectivas operações, e o consumidor final é o contribuinte de fato.",
+        "C": "O consumidor final é o contribuinte de direito, e a indústria é a de fato.",
+        "D": "Todos são, ao mesmo tempo, contribuintes de direito e de fato."
+      },
+      "correta": "B",
+      "explicacao": "Em tributos como o ICMS, que são plurifásicos, a sujeição passiva ocorre em cada etapa. Traduzindo: na venda da indústria para o comerciante, a indústria é a contribuinte de direito (quem recolhe o imposto). Na venda do comerciante para o consumidor, o comerciante é o contribuinte de direito. Em toda a cadeia, porém, quem arca com o peso econômico final do imposto embutido no preço é o consumidor final, que é, portanto, o contribuinte de fato. Fundamento: Doutrina sobre a não cumulatividade e a repercussão nos tributos indiretos."
+    },
+    {
+      "id": 49,
+      "tipo": "conceitual-distincao",
+      "pergunta": "Qual a diferença entre a imunidade tributária e a isenção?",
+      "opcoes": {
+        "A": "Imunidade é concedida por lei ordinária, enquanto isenção está na Constituição.",
+        "B": "Imunidade é uma limitação constitucional ao poder de tributar, impedindo o próprio nascimento da competência; isenção é a dispensa legal do pagamento de um tributo devido, concedida pelo ente que tem a competência.",
+        "C": "Imunidade se aplica a impostos, e isenção a taxas.",
+        "D": "Não há diferença, os termos são sinônimos."
+      },
+      "correta": "B",
+      "explicacao": "A imunidade \"proíbe de criar\", a isenção \"dispensa de pagar\". Traduzindo: a Imunidade é uma regra que vem de cima, da Constituição, e que diz ao governo: \"Nessa situação aqui, você NEM PODE criar o imposto\". Ela impede a própria competência. A Isenção é um ato do próprio governo que tem a competência. Ele diz: \"Eu posso te cobrar esse tributo, mas por um motivo X, estou te dispensando do pagamento\". A imunidade é uma não-competência; a isenção é uma competência exercida para desonerar. Fundamento: Doutrina clássica de Direito Tributário."
+    },
+    {
+      "id": 50,
+      "tipo": "integradora-conexao",
+      "pergunta": "Qual classificação doutrinária está mais diretamente associada ao princípio da capacidade contributiva, previsto no art. 145, § 1º, da CF/1988?",
+      "opcoes": {
+        "A": "Tributos vinculados e não vinculados.",
+        "B": "Tributos diretos e indiretos.",
+        "C": "Tributos fiscais e extrafiscais.",
+        "D": "Tributos reais e pessoais."
+      },
+      "correta": "D",
+      "explicacao": "A capacidade contributiva se manifesta plenamente nos tributos pessoais. Traduzindo: o princípio diz que, \"sempre que possível, os impostos serão pessoais e graduados segundo a capacidade econômica do contribuinte\". Para fazer isso, o tributo precisa \"olhar para a pessoa\", ou seja, ser pessoal, levando em conta suas características individuais de riqueza. Em tributos reais, que \"olham para a coisa\", a aplicação desse princípio é muito mais limitada ou indireta. O Imposto de Renda é o maior exemplo de imposto pessoal graduado pela capacidade contributiva. Fundamento: Art. 145, § 1º, da CF/1988 e doutrina."
     }
   ],
   "configuracoes": {

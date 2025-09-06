@@ -83,7 +83,7 @@ function loadQuestion() {
     // Atualizar interface
     document.getElementById('question-number').textContent = `Questão ${currentQuestion + 1}`;
     document.getElementById('question-type').textContent = q.tipo || 'Geral';
-    document.getElementById('question-text').textContent = q.pergunta;
+    document.getElementById('question-text').innerHTML = q.pergunta;
     
     // Criar opções
     const optionsContainer = document.getElementById('options');
